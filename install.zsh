@@ -10,6 +10,8 @@ mkdir -p "$config_dir"
 sources=(
   dwm
   sxstatus
+  screenshots/dwm.jpg
+  screenshots/dwm.jpg
   .zshrc
   .vimrc
   .xsessionrc
@@ -97,6 +99,9 @@ for (( i = 1; i <= ${#sources}; i++ )); do
   target="$HOME/${targets[$i]}"
   if (( i <= 2 )); then
     source="$repo/${targets[$i]}"
+  elif (( i == 3 )); then
+    source="$repo/${sources[$i]}"
+    target="$HOME/Pictures/Screenshots/dwm.jpg"
   fi
   if [[ -L $target && ${target:A} == ${source:A} ]]; then
     continue
@@ -124,6 +129,9 @@ for (( i = 1; i <= ${#sources}; i++ )); do
   target="$HOME/${targets[$i]}"
   if (( i <= 2 )); then
     source="$repo/${targets[$i]}"
+  elif (( i == 3 )); then
+    source="$repo/${sources[$i]}"
+    target="$HOME/Pictures/Screenshots/dwm.jpg"
   fi
   if [[ -L $target && ${target:A} == ${source:A} ]]; then
     print -- "Already linked: $target"
