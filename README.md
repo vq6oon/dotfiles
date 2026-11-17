@@ -8,9 +8,12 @@ Personal config repo. `dwm` and `sxstatus` are Git submodules, so GitHub shows l
 - `.zshrc`, `.vimrc`, `.xsessionrc`
 - `.config/kitty`, `.config/mpv` (including `scripts/autosave.lua`), `.config/nvim`
 - `.config/dunst`, `.config/picom`, `.config/fastfetch`, `.config/yt-dlp`, `.config/dmenu/config.h`
-- `.local/bin/theme*`, `.config/wal/templates/`, `screenshots/dwm.jpg`
 - `.local/bin/theme*` and `.config/wal/templates/` — wallpaper theme scripts and pywal templates
-- `screenshots/dwm.jpg` — DWM preview for the DWM README
+- `screenshots/dwm.jpg` — DWM preview
+
+## Screenshot
+
+![dwm screenshot](screenshots/dwm.jpg)
 
 The installer links tracked files into `$HOME`. It does not copy `.gitconfig`, `.zshenv`, `.zprofile`, `.config/mov-cli`, credentials, or runtime state. Review those separately before adding. `dwm` and `sxstatus` keep their own history and remotes.
 
