@@ -1,0 +1,25 @@
+[global]
+    frame_width = 2
+    origin = top-right
+    offset = 40x50
+    width = 320
+    font = Monospace 11
+    padding = 10
+    horizontal_padding = 12
+    frame_color = "#ab809b"
+    separator_color = frame
+
+[urgency_low]
+    background = "#110c1c"
+    foreground = "#c3c2c6"
+    frame_color = "#ab809b"
+
+[urgency_normal]
+    background = "#110c1c"
+    foreground = "#c3c2c6"
+    frame_color = "#ab809b"
+
+[urgency_critical]
+    background = "#110c1c"
+    foreground = "#c3c2c6"
+    frame_color = "#c4696a"

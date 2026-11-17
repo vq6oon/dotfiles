@@ -1,0 +1,33 @@
+# dark mode signal (tanpa ganti tema GTK)
+gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
+
+# sxstatus
+sxstatus &
+
+# wallpaper
+nitrogen --restore &
+
+# for opacity & blur (disable for performance)
+# picom &
+
+# caffeine (50/50)
+caffeine &
+
+# gvfs daemon untuk MTP/Thunar
+/usr/libexec/gvfsd &
+
+# bar colors from last wal run
+xrdb -merge ~/.cache/wal/dwm-xres
+
+# auto theme when wallpaper changes
+"$HOME/.local/bin/theme-watch" &
+
+# Notification daemon
+dunst &
+
+# Application
+zapfast --start-hidden &
+# discord --start-minimized &
+
+# policy-agent
+lxqt-policykit-agent &

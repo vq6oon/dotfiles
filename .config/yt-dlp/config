@@ -1,0 +1,3 @@
+--extractor-args youtube:player_client=default,mweb
+--remote-components ejs:github
+--cookies-from-browser firefox

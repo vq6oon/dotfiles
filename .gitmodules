@@ -1,0 +1,6 @@
+[submodule "dwm"]
+	path = dwm
+	url = https://github.com/vq6oon/dwm.git
+[submodule "sxstatus"]
+	path = sxstatus
+	url = https://github.com/vq6oon/sxstatus.git
