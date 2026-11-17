@@ -11,7 +11,6 @@ sources=(
   dwm
   sxstatus
   screenshots/dwm.jpg
-  screenshots/dwm.jpg
   .zshrc
   .vimrc
   .xsessionrc
@@ -52,6 +51,7 @@ sources=(
 targets=(
   dwm
   sxstatus
+  screenshots/dwm.jpg
   .zshrc
   .vimrc
   .xsessionrc
